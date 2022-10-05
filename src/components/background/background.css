@@ -1,0 +1,20 @@
+.background__container-courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem
+}
+
+.course {
+    background-color: var(--color-bg-variant);
+    border-radius: 1rem;
+    transition: var(--transition);
+    padding: 1.2rem 0 1.2rem;
+}
+
+.course:hover {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-bg-variant);
+}
